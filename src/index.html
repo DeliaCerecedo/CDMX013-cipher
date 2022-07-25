@@ -2,13 +2,73 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Caeser Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong&effect=neon|outline|emboss|shadow-multiple">
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+     
+    <section id="bienvenida">
+       <h1 class="font-effect-outline">BIENVENIDO A TU DIARIO PERSONAL SECRETO </h1>
+       <P class="cifrar">¿Quieres comenzar a escrbir tu diario? Al terminar de escribir, haz click en "CIFRAR" para ocultarlo.</P>  
+       <P class="descifrar">¿Tienes ya un texto oculto y lo deseas descifrar? Haz click en "DESCIFRAR" para que lo puedas leer.</P>     
+        <button id="botonBienvenidaCifrar" type="button"><b>QUIERO CIFRAR</b></button>
+        <button id="botonBienvenidaDescifrar" type="button"><b>QUIERO DESCIFRAR</b></button>
+    </section>
+       
+
+    
+    <section id="pantallaCifrar">
+        <form>
+          <p class="cifrar-descifrar">
+            Escribe tu increíble experiencia del día de hoy:<br>
+          <textarea id="textParaCifrar" name="textParaCifrar"></textarea>
+          </p>
+         <p class="offset"> 
+            Offset:
+            <select name="offset" id="offset">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option> 
+             </select>
+         </p>
+          <input id="botonCifrar" type="submit" value="CIFRAR">      
+        </form>
+        <section>
+          <p class="diarioCifrado">
+            Aquí tienes tu experiencia del día cifrada, sólo tu puedes saber tus secretos:<br>
+            <textarea id="diarioCifrado" name="diarioCifrado"></textarea>
+          </p>
+          <input id="menuPrincipal" type="submit" value="MENÚ PRINCIPAL">
+        </section> 
+    </section>
+
+
+
+ <!--   <section id="pantallaDesifrar" style="display: none">     
+        <form class="cifrar-descifrar">
+          <p>
+            Escribe tu texto cifrado para que lo puedas descifrar:<br><br>
+            <textarea name="diario"></textarea>
+          </p>     
+          <input id="botonCifrarDescifrar" type="submit" value="DESCIFRAR">
+        </form>
+    </section>   -->
+
+
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
+
+
+
+
+
