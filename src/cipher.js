@@ -1,38 +1,46 @@
-function cipher() {
 
-  
+const cipher = {
+      encode: function(offset, originalText){
+      
+        const textMayusculas = originalText.toUpperCase();
+        console.log(textMayusculas);
+        alert(textMayusculas);
+        
 
-}
-  export default cipher
+        for (let i = 0; i < originalText.length; i++) {
+          
+          const numberByCharacter = textMayusculas.charCodeAt(i);
+        /*  console.log(numberByCharacter);
+          alert(numberByCharacter);*/
 
-/*implementar el objeto cipher debe contener dos métodos: 
-cipher.encode(offset, string)
-cipher.decode(offset, string)
+          const text = (numberByCharacter - 65 + Number(offset)) % 26 + 65;
+          /*const textEncode = text.charCodeAt(i);*/
+          console.log(textEncode);
+          alert(textEncode);
 
+          
 
- 
-  alert("estoy en la funcion cipher.js");
-  readOffset();
-  readText();
-  cifrarOriginalText();
- 
-}
+          /*let numberByCharacter = textMayusculas.chartCodeAt(i);*/
 
+          
+          /*const element = array[index];*/
+        
+         /* console.log(numberByCharacter);  */     
+          /*alert(i);*/
+         
+        }
 
+       /* console.log(nOffset);
+        console.log(originalText);
+        
+        console.log(textLongitud);
+        console.log(numberByCharacter);
+        alert("estoy en encode en cipher");*/
 
-const readText=function(){
-  alert("estoy en la funcion leer texto en cipher.js");
-  const originalText=document.getElementById("textParaCifrar").value;
-  alert(originalText);
- 
-}
-
-
-
-const readOffset=function(){
-  const offsetSelected=document.getElementById("offset").value;
-  alert("estoy leyendo el offset en cipher.js")
-  alert(offsetSelected);
-}
-
+      }
+ }
+/*
+cipher.encode();
+cipher.decode();
 */
+export default cipher;
