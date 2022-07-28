@@ -1,46 +1,31 @@
 
 const cipher = {
       encode: function(offset, originalText){
-      
-        const textMayusculas = originalText.toUpperCase();
-        console.log(textMayusculas);
-        alert(textMayusculas);
         
-
+        let textResult = '';
+        /*const textMayusculas = originalText.toUpperCase();*/
+             
+       
         for (let i = 0; i < originalText.length; i++) {
-          
-          const numberByCharacter = textMayusculas.charCodeAt(i);
-        /*  console.log(numberByCharacter);
-          alert(numberByCharacter);*/
-
-          const text = (numberByCharacter - 65 + Number(offset)) % 26 + 65;
-          /*const textEncode = text.charCodeAt(i);*/
-          console.log(textEncode);
-          alert(textEncode);
-
+          const numberByCharacter = textMayusculas.charCodeAt(i); 
+          const textWithNumberEncode = (numberByCharacter - 65 + Number(offset)) % 26 + 65;
+          const textWithLetterEncode = String.fromCharCode(textWithNumberEncode);
+          textResult += textWithLetterEncode;
           
 
-          /*let numberByCharacter = textMayusculas.chartCodeAt(i);*/
 
-          
-          /*const element = array[index];*/
-        
-         /* console.log(numberByCharacter);  */     
-          /*alert(i);*/
-         
         }
 
-       /* console.log(nOffset);
-        console.log(originalText);
+        return textResult;
         
-        console.log(textLongitud);
-        console.log(numberByCharacter);
-        alert("estoy en encode en cipher");*/
+       
 
       }
  }
-/*
-cipher.encode();
-cipher.decode();
-*/
+
+/* cipher.encode(1, 'ABC'); // BCD*/ //quí llamo a la funcion y aparte le paso argumentos
+ /*console.log(cipher.encode(1, 'Abc'));*/
+ 
+
+/*cipher.decode();*/
 export default cipher;

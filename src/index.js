@@ -18,8 +18,10 @@ cifrarElTexto.addEventListener('click', function(){
     const originalText = document.getElementById("textParaCifrar").value;
     const offset=document.getElementById("offset").value;
     cipher.encode(offset, originalText);
-    
-});
+
+    document.getElementById('diarioCifrado').value = cipher.encode(offset, originalText);
+   
+   });
 
 
 const menuPrincipal = document.getElementById('menuPrincipal');
@@ -30,10 +32,7 @@ menuPrincipal.addEventListener('click', function(){
 
 
 
-
-
 /*
-
 
 
 const descifrar=function(){
@@ -42,9 +41,6 @@ const descifrar=function(){
 };
 
 const botonPantallaDescifrar=document.getElementById('botonPantallaDescifrar');
-botonDescifrar.addEventListener('click', descifrar);
-
+botonPantallaDescifrar.addEventListener('click', descifrar);
 
 */
-
-
