@@ -1,7 +1,9 @@
 
 const cipher = {
       encode: function(offsetCifrar, originalText){
-        
+        if (offsetCifrar === undefined && originalText === undefined) {
+          throw new TypeError();
+        }
         let textEncode = '';
                    
        
@@ -65,10 +67,10 @@ const cipher = {
   }
 
 
-/*cipher.encode(1, 'AbC @¿');  //quí llamo a la funcion y aparte le paso argumentos*/
- console.log(cipher.encode(1, 'Ab C'));
-/*cipher.decode(1, 'AbC @¿'); // BCD */
-console.log(cipher.decode(1, 'Bb Cc'));
+//cipher.encode(1, 'AbC @¿');  //quí llamo a la funcion y aparte le paso argumentos
+//console.log(cipher.encode(1, 'Aa'));
+//cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG'); // BCD 
+//console.log(cipher.decode(1, 'Bb'));
 
 
 

@@ -44,9 +44,9 @@ const descifrarElTexto=document.getElementById('botonDescifrar');
 descifrarElTexto.addEventListener('click', function(){
     const textoCifrado = document.getElementById("textParaDescifrar").value;
     const offsetDescifrar=document.getElementById("offsetDescifrar").value;
-    cipher.encode(offsetDescifrar, textoCifrado);
+    cipher.decode(offsetDescifrar, textoCifrado);
 
-    document.getElementById('diarioDescifrado').value = cipher.encode(offsetDescifrar, textoCifrado);
+    document.getElementById('diarioDescifrado').value = cipher.decode(offsetDescifrar, textoCifrado);
    
    });
 
