@@ -3,7 +3,7 @@ const cipher = {
       encode: function(offset, originalText){
         
         let textResult = '';
-        /*const textMayusculas = originalText.toUpperCase();*/
+        const textMayusculas = originalText.toUpperCase();
              
        
         for (let i = 0; i < originalText.length; i++) {
