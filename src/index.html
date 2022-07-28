@@ -27,7 +27,7 @@
           </p>
          <p class="offset"> 
             Offset:
-            <select name="offset" id="offset">
+            <select name="offset" id="offsetCifrar">
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -46,23 +46,45 @@
             Aquí tienes tu experiencia del día cifrada, sólo tu puedes saber tus secretos:<br>
             <textarea id="diarioCifrado" name="diarioCifrado"></textarea>
           </p>
-          <input id="menuPrincipal" type="button" value="MENÚ PRINCIPAL">
+          <input id="menuPrincipalCifrado" class="menuPrincipal" type="button" value="MENÚ PRINCIPAL">
         </section> 
     </section>
 
-<!--
 
-    <section id="pantallaDesifrar" style="display: none">     
-        <form class="cifrar-descifrar">
-          <p>
-            Escribe tu texto cifrado para que lo puedas descifrar:<br><br>
-            <textarea name="diario"></textarea>
-          </p>     
-          <input id="botonCifrarDescifrar" type="button" value="DESCIFRAR">
-        </form>
-    </section>   
 
-  -->
+  <section id="pantallaDescifrar">
+    <form>
+      <p class="cifrar-descifrar">
+        Escribe tu diario cifrado para que lo puedas decifrar:<br>
+      <textarea id="textParaDescifrar" name="textParaDescifrar"></textarea>
+      </p>
+     <p class="offset"> 
+        Offset:
+        <select name="offset" id="offsetDescifrar">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option> 
+         </select>
+     </p>
+      <input id="botonDescifrar" type="button" value="DESCIFRAR">      
+    </form>
+    <section>
+      <p class="diarioCifrado">
+        Aquí tienes tu experiencia del día descifrada:<br>
+        <textarea id="diarioDescifrado" name="diarioDescifrado"></textarea>
+      </p>
+      <input id="menuPrincipalDescifrado"class="menuPrincipal" type="button" value="MENÚ PRINCIPAL">
+    </section> 
+</section>
+
+
+
 
     <script src="index.js" type="module"></script>
   </body>

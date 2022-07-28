@@ -1,31 +1,79 @@
 
 const cipher = {
-      encode: function(offset, originalText){
+      encode: function(offsetCifrar, originalText){
         
-        let textResult = '';
-        const textMayusculas = originalText.toUpperCase();
-             
+        let textEncode = '';
+                   
        
         for (let i = 0; i < originalText.length; i++) {
-          const numberByCharacter = textMayusculas.charCodeAt(i); 
-          const textWithNumberEncode = (numberByCharacter - 65 + Number(offset)) % 26 + 65;
-          const textWithLetterEncode = String.fromCharCode(textWithNumberEncode);
-          textResult += textWithLetterEncode;
+         
+          const numberByCharacter = originalText.charCodeAt(i);
           
+          if (numberByCharacter >= 65 && numberByCharacter <=90) {
+            const textWithNumberEncode = (numberByCharacter - 65 + Number(offsetCifrar)) % 26 + 65;
+            const textWithLetterEncode = String.fromCharCode(textWithNumberEncode);
+            textEncode += textWithLetterEncode;
+          } else if (numberByCharacter >= 97 && numberByCharacter <=122) {
+            const textWithNumberEncode = (numberByCharacter - 97 + Number(offsetCifrar)) % 26 + 97;
+            const textWithLetterEncode = String.fromCharCode(textWithNumberEncode);
+            textEncode += textWithLetterEncode;
 
-
+          } else {
+            textEncode += String.fromCharCode(numberByCharacter);
+            }  
+            
         }
+            
+           
 
-        return textResult;
-        
-       
+      return textEncode;
+             
 
-      }
- }
-
-/* cipher.encode(1, 'ABC'); // BCD*/ //quí llamo a la funcion y aparte le paso argumentos
- /*console.log(cipher.encode(1, 'Abc'));*/
+      },
  
 
-/*cipher.decode();*/
+      decode: function(offsetDescifrar, textoCifrado){
+        
+        let textDecode = '';
+                   
+       
+        for (let i = 0; i < textoCifrado.length; i++) {
+          
+          const numberByDecode = textoCifrado.charCodeAt(i);
+          
+          if (numberByDecode >= 65 && numberByDecode <=90) {
+            const textWithNumberDecode = (numberByDecode - 65 - Number(offsetDescifrar)) % 26 + 65;
+            const textWithLetterDecode = String.fromCharCode(textWithNumberDecode);
+            textDecode += textWithLetterDecode;
+          } else if (numberByDecode >= 97 && numberByDecode <=122) {
+            const textWithNumberDecode = (numberByDecode - 97 - Number(offsetDescifrar)) % 26 + 97;
+            const textWithLetterDecode = String.fromCharCode(textWithNumberDecode);
+            textDecode += textWithLetterDecode;
+
+          } else {
+            textDecode += String.fromCharCode(numberByDecode);
+            }  
+            
+        }
+            
+           
+
+      return textDecode;
+             
+
+      }
+  }
+
+
+/*cipher.encode(1, 'AbC @¿');  //quí llamo a la funcion y aparte le paso argumentos*/
+ console.log(cipher.encode(1, 'Ab C'));
+/*cipher.decode(1, 'AbC @¿'); // BCD */
+console.log(cipher.decode(1, 'Bb Cc'));
+
+
+
+
+
+
+
 export default cipher;

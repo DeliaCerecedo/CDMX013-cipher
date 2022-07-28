@@ -1,8 +1,7 @@
 
 import cipher from "./cipher.js";
 
-/*escuchar eventos DOM, invocar cipher.encode(offset, string) y cipher.decode(offset, string)
-y actualiza los resultados en la UI*/ 
+//para cifrar texto 
 
 
 const botonBienvenidaCifrar=document.getElementById('botonBienvenidaCifrar');
@@ -16,31 +15,47 @@ botonBienvenidaCifrar.addEventListener('click', function(){
 const cifrarElTexto=document.getElementById('botonCifrar');
 cifrarElTexto.addEventListener('click', function(){
     const originalText = document.getElementById("textParaCifrar").value;
-    const offset=document.getElementById("offset").value;
-    cipher.encode(offset, originalText);
+    const offsetCifrar=document.getElementById("offsetCifrar").value;
+    cipher.encode(offsetCifrar, originalText);
 
-    document.getElementById('diarioCifrado').value = cipher.encode(offset, originalText);
+    document.getElementById('diarioCifrado').value = cipher.encode(offsetCifrar, originalText);
    
    });
 
 
-const menuPrincipal = document.getElementById('menuPrincipal');
-menuPrincipal.addEventListener('click', function(){
+const menuPrincipalCifrado = document.getElementById('menuPrincipalCifrado');
+menuPrincipalCifrado.addEventListener('click', function(){
     document.getElementById('bienvenida').style.display = "block";
     document.getElementById('pantallaCifrar').style.display = "none";
 });
 
 
+//para descifrar texto
 
-/*
+const botonBienvenidaDescifrar=document.getElementById('botonBienvenidaDescifrar');
+botonBienvenidaDescifrar.addEventListener('click', function(){
+    document.getElementById('bienvenida').style.display = "none";
+    document.getElementById('pantallaDescifrar').style.display = "block";
+
+});
 
 
-const descifrar=function(){
-    document.getElementById("bienvenida").style.display = "none";
-    document.getElementById("pantallaDesifrar").style.display = "block";
-};
+const descifrarElTexto=document.getElementById('botonDescifrar');
+descifrarElTexto.addEventListener('click', function(){
+    const textoCifrado = document.getElementById("textParaDescifrar").value;
+    const offsetDescifrar=document.getElementById("offsetDescifrar").value;
+    cipher.encode(offsetDescifrar, textoCifrado);
 
-const botonPantallaDescifrar=document.getElementById('botonPantallaDescifrar');
-botonPantallaDescifrar.addEventListener('click', descifrar);
+    document.getElementById('diarioDescifrado').value = cipher.encode(offsetDescifrar, textoCifrado);
+   
+   });
 
-*/
+
+const menuPrincipalDescifrado = document.getElementById('menuPrincipalDescifrado');
+menuPrincipalDescifrado.addEventListener('click', function(){
+    document.getElementById('bienvenida').style.display = "block";
+    document.getElementById('pantallaDescifrar').style.display = "none";
+});
+
+
+
