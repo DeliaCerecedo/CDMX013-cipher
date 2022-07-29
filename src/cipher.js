@@ -44,11 +44,11 @@ const cipher = {
           const numberByDecode = textoCifrado.charCodeAt(i);
           
           if (numberByDecode >= 65 && numberByDecode <=90) {
-            const textWithNumberDecode = (numberByDecode - 65 - Number(offsetDescifrar)) % 26 + 65;
+            const textWithNumberDecode = (numberByDecode + 65 - Number(offsetDescifrar)) % 26 + 65;
             const textWithLetterDecode = String.fromCharCode(textWithNumberDecode);
             textDecode += textWithLetterDecode;
           } else if (numberByDecode >= 97 && numberByDecode <=122) {
-            const textWithNumberDecode = (numberByDecode - 97 - Number(offsetDescifrar)) % 26 + 97;
+            const textWithNumberDecode = (numberByDecode + 97 + Number(offsetDescifrar)) % 26 + 97;
             const textWithLetterDecode = String.fromCharCode(textWithNumberDecode);
             textDecode += textWithLetterDecode;
 
@@ -59,7 +59,6 @@ const cipher = {
         }
             
            
-
       return textDecode;
              
 
@@ -68,9 +67,9 @@ const cipher = {
 
 
 //cipher.encode(1, 'AbC @¿');  //quí llamo a la funcion y aparte le paso argumentos
-//console.log(cipher.encode(1, 'Aa'));
-//cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG'); // BCD 
-//console.log(cipher.decode(1, 'Bb'));
+//console.log(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'));
+//cipher.decode(1, 'Bb'); // BCD 
+//console.log(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg'));
 
 
 
