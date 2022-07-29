@@ -1,7 +1,7 @@
 
 const cipher = {
       encode: function(offsetCifrar, originalText){
-        if (offsetCifrar === undefined && originalText === undefined) {
+        if (offsetCifrar <= 0 && typeof originalText != "string") {
           throw new TypeError();
         }
         let textEncode = '';
@@ -35,7 +35,9 @@ const cipher = {
  
 
       decode: function(offsetDescifrar, textoCifrado){
-        
+        if (offsetDescifrar <= 0 && typeof textoCifrado != "string") {
+          throw new TypeError();
+        }
         let textDecode = '';
                    
        
