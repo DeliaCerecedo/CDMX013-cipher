@@ -68,18 +68,31 @@ como tecnologías.
 
 ### Figma
 
-+ Primero se pensó en la aplicación que se le daría al Cifrado Cesar
-+ Se hizo un diseño en figma que constaba de tres pantallas:
++ Antes de comenzar con el diseño en Figma, se decidió la aplicación del cifrado fuera para cifrar y descifrar un diario personal en línea.
++ Se procedió al diseño en Figma, constaba de tres pantallas:
     + Pantalla de Bienvenida
     + Pantalla de Cifrado
     + Pantalla de Descifrado
+
+A continuación estse anexan las imágenes de Figma para cada pantalla.
     
-####Pantalla Bienvenida
+####Pantalla de Bienvenida
 
-![img](Pantalla Bienvenida.png)
++ La pantalla de bienvenida contaba de una imágen diferente a la que quedó en el proyecto terminado, con este cambio se logró una mejor estética  y armonía en la página web. 
++ Se cambió la ubicación de los botones y el texto que dá la bienvenida al usuario.
++ Se utilizó para el letrero de "Bienvenid@ a tu diario personal secreto" el siguiente estilo [Google Font}](https://fonts.googleapis.com/css?family=Trirong&effect=neon|outline|emboss|shadow-multiple)
 
 
 
+![Pantalla Bienvenida](Pantalla Bienvenida.png)
+
+####Pantalla de Cifrado
+
+![Pantalla Cifrado](Pantalla Cifrado.png)
+
+####Pantalla de Descifrado
+
+![Pantalla Descifrado](Pantalla Descifrado.png)
 
 
 
