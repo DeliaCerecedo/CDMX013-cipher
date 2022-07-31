@@ -62,6 +62,125 @@ Trabajando en parejas aprenderán a construir una aplicación web que interactua
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
 como tecnologías.
 
+
+
+## 3. DISEÑO
+
+### Figma
+
++ Antes de comenzar con el diseño en Figma, se decidió la aplicación del cifrado fuera para cifrar y descifrar un diario personal en línea.
++ Se procedió al diseño en Figma, constaba de tres pantallas:
+    + Pantalla de Bienvenida
+    + Pantalla de Cifrado
+    + Pantalla de Descifrado
+
+A continuación estse anexan las imágenes de Figma para cada pantalla.
+    
+#### Pantalla de Bienvenida
+
++ La pantalla de bienvenida contaba de una imágen diferente a la que quedó en el proyecto terminado, con este cambio se logró una mejor estética  y armonía en la página web. 
++ Se cambió la ubicación de los botones y el texto que dá la bienvenida al usuario.
++ Se utilizó para el letrero de "Bienvenid@ a tu diario personal secreto" el siguiente estilo [Google Font}](https://fonts.googleapis.com/css?family=Trirong&&effect=neon|outline|emboss|shadow-multiple)
++ Se agregó la siguiente imagen al lado izquierda de cada pantalla:
+
+
+![Imagen para fondo de pantalla](/imagenes/life\ is\ a\ story.webp)
+
+
++ Se utilizó un fondo de color rgba(3, 186, 167, 0.4).
++ Cuando el cursor pasa por encima de los botones se observa una sombra para dar efecto de hacer click y el cursor cambia de forma.
+
+
+
+![Pantalla Bienvenida](/Pantalla-Bienvenida.png)
+    
+
+#### Pantalla de Cifrado
+
++ Para la pantalla de Cifrado, se decidió mantener el mismo estilo del background que la pantala de bienvenida.
++ En el diseño original de figma no había botón para regresar el menú principal, se agrego ese botón durante el desarrollo de la progrmación de JS.
++ Offset:
+    + Se puso el botón de offset de cifrado y decifrado uno al lado del otro en lugar de ponerlos en columna como estaba en Figma.
+    + Se cambió el tipo de entrada para el offset, en el diseño orginal de Figma se había pensado en que fuera un input, finalmente se dejó un select. Se evitan offset negativos, letras o caracteres especiales.
+    + El número de opciones al inicio del proyecto era de 10 al final del proyecto se cambió a 33 opciones para poder hacer la prueba que se pide para los test.
+
+
+![Pantalla Cifrado](/Pantalla-Cifrado.png)
+
+
+#### Pantalla de Descifrado
+
+
++ Para la pantalla de Descifrado, se decidió mantener el mismo estilo que en la pantalla de Cifrado.
++ Al momento de hacer las pruebas finales del proyecto se agregó en JS una intrucción para limpiar las áreas de texto después regresara al menú principal.
+
+
+![Pantalla Descifrado](/Pantalla-Descifrado.png)
+
+
+#### Mejoras
+
++ Preguntar por el nombre del ususario.
++ Agregar un password para poder ingresar al diario.
++ Cambiar el tipo de letra tnto en el apartado de cifrado y descifrado.
++ Agregar un botón de para ir a la pantalla de descifrado desde la pantalla de cifrado y colocarla al lado del botón "Menú Principal".
++ Agregar un botón de para ir a la pantalla de cifrado desde la pantalla de descifrado y colocarla al lado del botón "Menú Principal".
++ Cambiar el color de los botones ya que se pierden un poco y abruma demasiado verde.
+
+
+## 4. APLICACIÓN DEL CIFRADO CÉSAR
+
++ La aplicación.
+    + Diario Personal Secreto Digital. 
+
++ Usuarios.
+    + Cualquier persona que quiera tener un diario personal secreto en forma digital y quiera tener su diario sin correr el riesgo de que lo lea una persona no autorizada por el autor.
+
++ Problema.
+    + Cualquier persona quiere tener en algún momento de su vida un diario personal, normalmente, se escribe en un cuaderno especial que contiene un candado para que sólo el dueño del diario pueda leerlo o escribir. Si el cuaderno no tiene un "candado" entonces el usuario busca un lugar "seguro" donde esconderlo. El problema de estos método para mantener a salvo el diario, no tienen mucho éxito y cualquier persona no autorizada por el autor puede leer el contenido.
+
++ Solución.
+    + Se diseñó un diario personal digital donde el único que puede tener acceso al contenido es el autor y las personas autorizadas por el autor.
+    + No se requiere de comprar cuadernos, por lo tanto, se está contribuyendo a la ecología del planeta al no desperdiciar hojas de papel.
+    + Se pueden corregir, agregar o borrar  contenido sin problemas de estética o falta ade espacio.
+    + En caso de que el diario lo quisiera leer alguien no autroizado por el autor, esa persona no podría leer el diario ya que no conoce el offset.
+    + El autor puede compartir su diario con cualquiera, sin importar:
+      +  Si requieren cuarentena por alguna enfermedad
+      +  Si vive a una distancia considerable que impida se vean personalmente.
+    
+
+## 5. INSTRUCCIONES
+
+ #### Pantalla de Bienvenida
+
++ Se tienen dos botones:
+    + CIFRAR: Haga click en este botón si lo que desea es escribir su diario. Este botón lo llevará a otra pantalla llamada: "Pantalla de Cifrado".
+    + DESCIFRAR: Haga click en este botón si lo que desea es descifrar un texto que ya cifró anteriormente. Ese botón lo llevará a otra pantala llamada: "Pantalla de Descifrado".
+
+
+![Pantalla Bienvenida](/Pantalla-Bienvenida-Final.png)
+
+
+ #### Pantalla de Bienvenida
+
+
+
+
+![Pantalla de Cifrado](/Pantalla-Cifrado-Final.png)
+
+*******************BORRAR DESPUES DE TERMINAR README
+* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+  el producto.
+* [ ] `README.md` explica claramente cómo el producto soluciona los
+  problemas/necesidades de los usuarios.
+* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
+  así como una introducción a la aplicación, su funcionalidad y decisiones de
+  diseño que tomaron.
+************************
+
+
+
 ## 3. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
