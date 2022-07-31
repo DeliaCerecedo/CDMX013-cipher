@@ -4,7 +4,7 @@ const cipher = {
         if (offsetCifrar <= 0 && typeof originalText != "string") {
           throw new TypeError();
         }
-        
+
         let textEncode = '';
                    
        
@@ -73,11 +73,6 @@ const cipher = {
 //console.log(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'));
 //cipher.decode(1, 'Bb'); // BCD 
 //console.log(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg'));
-
-
-
-
-
 
 
 export default cipher;
