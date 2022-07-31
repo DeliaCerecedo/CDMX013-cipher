@@ -87,7 +87,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 ![Imagen para fondo de pantalla](/imagenes/life\ is\ a\ story.webp)
 
 
-+ Se utilizó un fondo de color rgba(3, 186, 167, 0.4).
++ Se utilizó un fondo de color rgba para poder usar una transparencia en el color.
 + Cuando el cursor pasa por encima de los botones se observa una sombra para dar efecto de hacer click y el cursor cambia de forma.
 
 
