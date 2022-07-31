@@ -84,7 +84,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 + Se agregó la siguiente imagen al lado izquierda de cada pantalla:
 
 
-[Imagen para fondo de pantalla](/imagenes/life\ is\ a\ story.webp)
+![Imagen para fondo de pantalla](/imagenes/life\ is\ a\ story.webp)
 
 
 + Se utilizó un fondo de color rgba(3, 186, 167, 0.4).
@@ -92,7 +92,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 
 
 
-![Pantalla Bienvenida](/Pantalla Bienvenida.png)
+![Pantalla Bienvenida](/Pantalla-Bienvenida.png)
     
 
 #### Pantalla de Cifrado
@@ -105,7 +105,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
     + El número de opciones al inicio del proyecto era de 10 al final del proyecto se cambió a 33 opciones para poder hacer la prueba que se pide para los test.
 
 
-![Pantalla Cifrado](/Pantalla Cifrado.png)
+![Pantalla Cifrado](/Pantalla-Cifrado.png)
 
 
 #### Pantalla de Descifrado
@@ -115,7 +115,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 + Al momento de hacer las pruebas finales del proyecto se agregó en JS una intrucción para limpiar las áreas de texto después regresara al menú principal.
 
 
-![Pantalla Descifrado](/Pantalla Descifrado.png)
+![Pantalla Descifrado](/Pantalla-Descifrado.png)
 
 
 #### Mejoras
@@ -149,11 +149,24 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
       +  Si vive a una distancia considerable que impida se vean personalmente.
     
 
+## 5. INSTRUCCIONES
+
+ #### Pantalla de Bienvenida
+
++ Se tienen dos botones:
+    + CIFRAR: Haga click en este botón si lo que desea es escribir su diario. Este botón lo llevará a otra pantalla llamada: "Pantalla de Cifrado".
+    + DESCIFRAR: Haga click en este botón si lo que desea es descifrar un texto que ya cifró anteriormente. Ese botón lo llevará a otra pantala llamada: "Pantalla de Descifrado".
+
+
+![Pantalla Bienvenida](/Pantalla-Bienvenida-Final.png)
+
+
+ #### Pantalla de Bienvenida
 
 
 
 
-
+![Pantalla de Cifrado](/Pantalla-Cifrado-Final.png)
 
 *******************BORRAR DESPUES DE TERMINAR README
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
@@ -161,6 +174,9 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
   el producto.
 * [ ] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
+* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
+  así como una introducción a la aplicación, su funcionalidad y decisiones de
+  diseño que tomaron.
 ************************
 
 
