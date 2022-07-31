@@ -149,7 +149,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
       +  Si vive a una distancia considerable que impida se vean personalmente.
     
 
-## 5. INSTRUCCIONES
+## 5. INSTRUCCIONES:
 
  #### Pantalla de Bienvenida
 
@@ -161,12 +161,40 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 ![Pantalla Bienvenida](/Pantalla-Bienvenida-Final.png)
 
 
- #### Pantalla de Bienvenida
+ #### Pantalla de Cifrado
+
+
++ Contenido:
+    + Recuadro Superior: En este recuadro, usted podrá escribir sus maravillosas experiencias diarias.
+    + Recuadro Inferior: En este recuadro, usted recibirá cifrado todo lo que escribió.
+    + Offset: Usted decide el desplazamiento con el que sea cifrar su diario.
+    + CIFRAR: Al hacer click en este botón usted manda a cifrar el texto escrito en el "recuadro superior" y lo recibirá cifrado en el "recuadro inferior"
+    + MENÚ PRINCIPAL: Al hacer click en este botón usted regresará al menú principal donde puede elegir si quiere volver a cifrar o descifrar su diario.
+
++ Pasos a seguir para cifrar:
+    + Escriba su experiencia en el "recuado superior"
+    + Seleccione el offset.
+    + Hacer click en el botón de cifrar.
+    + Recibe en el "recuadro inferior" su diario cifrado.
+    + Haga click en el botón "Menú Principal" para regresar al menú principal
+    
 
 
 
 
 ![Pantalla de Cifrado](/Pantalla-Cifrado-Final.png)
+
+
+
+
+
+
+
+ #### Pantalla de Descifrado
+
+
+
+![Pantalla de Descifrado](/Pantalla-Desifrado-Final.png)
 
 *******************BORRAR DESPUES DE TERMINAR README
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
