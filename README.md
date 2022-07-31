@@ -75,7 +75,9 @@ como tecnologías.
     + Pantalla de Descifrado
     
 ####Pantalla Bienvenida
-![Screenshot](Pantalla Bienvenida.png)
+
+
+![](Pantalla Bienvenida.png)
 
 
 
