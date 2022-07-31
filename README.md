@@ -64,15 +64,30 @@ como tecnologías.
 
 
 
+## 3. DISEÑO
+
+### Figma
+
++ Primero se pensó en la aplicación que se le daría al Cifrado Cesar
++ Se hizo un diseño en figma que constaba de tres pantallas:
+    + Pantalla de Bienvenida
+    + Pantalla de Cifrado
+    + Pantalla de Descifrado
+    
+####Pantalla Bienvenida
+![Screenshot](Pantalla Bienvenida.png)
+
+
+
+
+
+*******************BORRAR DESPUES DE TERMINAR README
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
 * [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
 * [ ] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
-
-
-
-
+************************
 
 
 
