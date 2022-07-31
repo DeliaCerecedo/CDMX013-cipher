@@ -81,13 +81,18 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 + La pantalla de bienvenida contaba de una imágen diferente a la que quedó en el proyecto terminado, con este cambio se logró una mejor estética  y armonía en la página web. 
 + Se cambió la ubicación de los botones y el texto que dá la bienvenida al usuario.
 + Se utilizó para el letrero de "Bienvenid@ a tu diario personal secreto" el siguiente estilo [Google Font}](https://fonts.googleapis.com/css?family=Trirong&&effect=neon|outline|emboss|shadow-multiple)
-+ Se agregó la siguiente imagen al lado izquierda de cada pantalla:_ ![Imagen para fondo de pantalla](/imagenes/life\ is\ a\ story.webp)
++ Se agregó la siguiente imagen al lado izquierda de cada pantalla:
+
+
+[Imagen para fondo de pantalla](/imagenes/life\ is\ a\ story.webp)
+
+
 + Se utilizó un fondo de color rgba(3, 186, 167, 0.4).
 + Cuando el cursor pasa por encima de los botones se observa una sombra para dar efecto de hacer click y el cursor cambia de forma.
 
 
 
-![Pantalla Bienvenida](Pantalla Bienvenida.png)
+![Pantalla Bienvenida](/Pantalla Bienvenida.png)
     
 
 #### Pantalla de Cifrado
@@ -100,7 +105,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
     + El número de opciones al inicio del proyecto era de 10 al final del proyecto se cambió a 33 opciones para poder hacer la prueba que se pide para los test.
 
 
-![Pantalla Cifrado](Pantalla Cifrado.png)
+![Pantalla Cifrado](/Pantalla Cifrado.png)
 
 
 #### Pantalla de Descifrado
@@ -110,7 +115,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 + Al momento de hacer las pruebas finales del proyecto se agregó en JS una intrucción para limpiar las áreas de texto después regresara al menú principal.
 
 
-![Pantalla Descifrado](Pantalla Descifrado.png)
+![Pantalla Descifrado](/Pantalla Descifrado.png)
 
 
 #### Mejoras
