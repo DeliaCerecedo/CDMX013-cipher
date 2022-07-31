@@ -164,52 +164,31 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
  #### Pantalla de Cifrado
 
 
-+ Contenido:
-    + Recuadro Superior: En este recuadro, usted podrá escribir sus maravillosas experiencias diarias.
-    + Recuadro Inferior: En este recuadro, usted recibirá cifrado todo lo que escribió.
-    + Offset: Usted decide el desplazamiento con el que sea cifrar su diario.
-    + CIFRAR: Al hacer click en este botón usted manda a cifrar el texto escrito en el "recuadro superior" y lo recibirá cifrado en el "recuadro inferior"
-    + MENÚ PRINCIPAL: Al hacer click en este botón usted regresará al menú principal donde puede elegir si quiere volver a cifrar o descifrar su diario.
-
-+ Pasos a seguir para cifrar:
-    + Escriba su experiencia en el "recuado superior"
-    + Seleccione el offset.
-    + Hacer click en el botón de cifrar.
-    + Recibe en el "recuadro inferior" su diario cifrado.
-    + Haga click en el botón "Menú Principal" para regresar al menú principal
-    
-
-
++ Pasos a seguir para cifrar su diario:
+    1. Recuadro Superior: Escriba sus maravillosas experiencias diarias.
+    2. Offset: Usted decide el desplazamiento con el que desea cifrar su diario.
+    3. CIFRAR: Haga click en este botón para cifrar el texto escrito en el "recuadro superior" y lo recibirá cifrado en el "Recuadro Inferior".
+    4. Recuadro Inferior: Recibe cifrado su diario.
+    5. MENÚ PRINCIPAL: Haga click en este botón para regresar al menú principal donde puede elegir si quiere volver a cifrar o descifrar su diario.
 
 
 ![Pantalla de Cifrado](/Pantalla-Cifrado-Final.png)
 
 
-
-
-
-
-
  #### Pantalla de Descifrado
 
++ Pasos a seguir para descifrar su diario:
+    1. Recuadro Superior: Si ya tiene un texto cifrado, escríbalo o copielo aquí.
+    2. Offset: Coloque el desplazamiento que utilizó para cifrar su diario.
+    3. DESCIFRAR: Haga click en este botón para descifrar el texto escrito en el "recuadro superior" y lo recibirá descifrado en el "Recuadro Inferior".
+    4. Recuadro Inferior: Recibe descifrado su diario.
+    5. MENÚ PRINCIPAL: Haga click en este botón para regresar al menú principal donde puede elegir si quiere volver a cifrar o descifrar su diario.
 
 
 ![Pantalla de Descifrado](/Pantalla-Desifrado-Final.png)
 
-*******************BORRAR DESPUES DE TERMINAR README
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
-  el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-************************
 
-
-
-## 3. Objetivos de aprendizaje
+## 4. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
@@ -372,14 +351,14 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Seguir los principios básicos de diseño visual**
 
-## 4. Consideraciones generales
+## 5. Consideraciones generales
 
 * En este proyecto trabajaras de forma individual.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
   te preocupes, lo aprenderás durante este proyecto.
 
-## 5. Criterios de aceptación mínimos del proyecto
+## 6. Criterios de aceptación mínimos del proyecto
 
 Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
@@ -426,7 +405,7 @@ La interfaz debe permitir al usuario:
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
-## 6. Hacker edition
+## 7. Hacker edition
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
@@ -440,7 +419,7 @@ punto de partida para implementar el soporte para estos casos.
 Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del
 hacker edition te invitamos a explorar también esta caso por tu cuenta.
 
-## 7. Consideraciones técnicas
+## 8. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript puro
@@ -491,7 +470,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 ***
 
-## 8. Pistas, tips y lecturas complementarias
+## 9. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -578,7 +557,7 @@ Organización del Trabajo:
   poco a lo largo del -_bootcamp_.
 * [Guía para Cifrado César](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
 
-## 9. Checklist
+## 10. Checklist
 
 Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
