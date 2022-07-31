@@ -76,7 +76,7 @@ como tecnologías.
 
 A continuación estse anexan las imágenes de Figma para cada pantalla.
     
-####Pantalla de Bienvenida
+#### Pantalla de Bienvenida
 
 + La pantalla de bienvenida contaba de una imágen diferente a la que quedó en el proyecto terminado, con este cambio se logró una mejor estética  y armonía en la página web. 
 + Se cambió la ubicación de los botones y el texto que dá la bienvenida al usuario.
@@ -90,7 +90,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 ![Pantalla Bienvenida](Pantalla Bienvenida.png)
     
 
-####Pantalla de Cifrado
+#### Pantalla de Cifrado
 
 + Para la pantalla de Cifrado, se decidió mantener el mismo estilo del background que la pantala de bienvenida.
 + En el diseño original de figma no había botón para regresar el menú principal, se agrego ese botón durante el desarrollo de la progrmación de JS.
@@ -103,13 +103,51 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 ![Pantalla Cifrado](Pantalla Cifrado.png)
 
 
-####Pantalla de Descifrado
-
-![Pantalla Descifrado](Pantalla Descifrado.png)
+#### Pantalla de Descifrado
 
 
 + Para la pantalla de Descifrado, se decidió mantener el mismo estilo que en la pantalla de Cifrado.
 + Al momento de hacer las pruebas finales del proyecto se agregó en JS una intrucción para limpiar las áreas de texto después regresara al menú principal.
+
+
+![Pantalla Descifrado](Pantalla Descifrado.png)
+
+
+#### Mejoras
+
++ Preguntar por el nombre del ususario.
++ Agregar un password para poder ingresar al diario.
++ Cambiar el tipo de letra tnto en el apartado de cifrado y descifrado.
++ Agregar un botón de para ir a la pantalla de descifrado desde la pantalla de cifrado y colocarla al lado del botón "Menú Principal".
++ Agregar un botón de para ir a la pantalla de cifrado desde la pantalla de descifrado y colocarla al lado del botón "Menú Principal".
++ Cambiar el color de los botones ya que se pierden un poco y abruma demasiado verde.
+
+
+## 4. APLICACIÓN DEL CIFRADO CÉSAR
+
++ La aplicación.
+    + Diario Personal Secreto Digital. 
+
++ Usuarios.
+    + Cualquier persona que quiera tener un diario personal secreto en forma digital y quiera tener su diario sin correr el riesgo de que lo lea una persona no autorizada por el autor.
+
++ Problema.
+    + Cualquier persona quiere tener en algún momento de su vida un diario personal, normalmente, se escribe en un cuaderno especial que contiene un candado para que sólo el dueño del diario pueda leerlo o escribir. Si el cuaderno no tiene un "candado" entonces el usuario busca un lugar "seguro" donde esconderlo. El problema de estos método para mantener a salvo el diario, no tienen mucho éxito y cualquier persona no autorizada por el autor puede leer el contenido.
+
++ Solución.
+    + Se diseñó un diario personal digital donde el único que puede tener acceso al contenido es el autor y las personas autorizadas por el autor.
+    + No se requiere de comprar cuadernos, por lo tanto, se está contribuyendo a la ecología del planeta al no desperdiciar hojas de papel.
+    + Se pueden corregir, agregar o borrar  contenido sin problemas de estética o falta ade espacio.
+    + En caso de que el diario lo quisiera leer alguien no autroizado por el autor, esa persona no podría leer el diario ya que no conoce el offset.
+    + El autor puede compartir su diario con cualquiera, sin importar:
+      +  Si requieren cuarentena por alguna enfermedad
+      +  Si vive a una distancia considerable que impida se vean personalmente.
+    
+
+
+
+
+
 
 
 *******************BORRAR DESPUES DE TERMINAR README
