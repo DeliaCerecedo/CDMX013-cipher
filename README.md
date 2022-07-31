@@ -183,7 +183,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
     5. MENÚ PRINCIPAL: Haga click en este botón para regresar al menú principal donde puede elegir si quiere volver a cifrar o descifrar su diario.
 
 
-![Pantalla de Descifrado](/Pantalla-Desifrado-Final.png)
+![Pantalla de Descifrado](/Pantalla-Descifrado-Final.png)
 
 
 ## 6. Objetivos de aprendizaje
