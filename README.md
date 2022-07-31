@@ -417,7 +417,7 @@ punto de partida para implementar el soporte para estos casos.
 Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del
 hacker edition te invitamos a explorar también esta caso por tu cuenta.
 
-## 11. Consideraciones técnicas
+## 10. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript puro
@@ -468,7 +468,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 ***
 
-## 12. Pistas, tips y lecturas complementarias
+## 11. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -555,7 +555,7 @@ Organización del Trabajo:
   poco a lo largo del -_bootcamp_.
 * [Guía para Cifrado César](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
 
-## 11. Checklist
+## 12. Checklist
 
 Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
