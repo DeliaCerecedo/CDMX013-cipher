@@ -27,8 +27,8 @@ const menuPrincipalCifrado = document.getElementById('menuPrincipalCifrado');
 menuPrincipalCifrado.addEventListener('click', function(){
     document.getElementById('bienvenida').style.display = "block";
     document.getElementById('pantallaCifrar').style.display = "none";
-    document.getElementById('textParaCifrar').value = " ";
-    document.getElementById('diarioCifrado').value = " ";
+    document.getElementById('textParaCifrar').value = ' ';
+    document.getElementById('diarioCifrado').value = ' ';
     
 });
 
@@ -58,8 +58,8 @@ const menuPrincipalDescifrado = document.getElementById('menuPrincipalDescifrado
 menuPrincipalDescifrado.addEventListener('click', function(){
     document.getElementById('bienvenida').style.display = "block";
     document.getElementById('pantallaDescifrar').style.display = "none";
-    document.getElementById('textParaDescifrar').value = " ";
-    document.getElementById('diarioDescifrado').value = " ";
+    document.getElementById('textParaDescifrar').value = ' ';
+    document.getElementById('diarioDescifrado').value = ' ';
     
 });
 

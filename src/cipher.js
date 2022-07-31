@@ -71,9 +71,9 @@ const cipher = {
 
 
 //cipher.encode(1, 'AbC');  //quí llamo a la funcion y aparte le paso argumentos
-console.log(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'));
+//console.log(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz'));
 //cipher.decode(1, 'Bb'); // BCD 
-console.log(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg'));
+//console.log(cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg'));
 
 
 export default cipher;
