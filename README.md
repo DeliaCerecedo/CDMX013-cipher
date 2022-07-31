@@ -81,12 +81,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 + La pantalla de bienvenida contaba de una imágen diferente a la que quedó en el proyecto terminado, con este cambio se logró una mejor estética  y armonía en la página web. 
 + Se cambió la ubicación de los botones y el texto que dá la bienvenida al usuario.
 + Se utilizó para el letrero de "Bienvenid@ a tu diario personal secreto" el siguiente estilo [Google Font}](https://fonts.googleapis.com/css?family=Trirong&&effect=neon|outline|emboss|shadow-multiple)
-+ Se agregó la siguiente imagen al lado izquierda de cada pantalla:
-
-
-![Imagen para fondo de pantalla](url("imagenes/life\ is\ a\ story.webp"))
-
-
++ Se agregó una imagen al lado izquierda de cada pantalla.
 + Se utilizó un fondo de color rgba para poder usar una transparencia en el color.
 + Cuando el cursor pasa por encima de los botones se observa una sombra para dar efecto de hacer click y el cursor cambia de forma.
 
