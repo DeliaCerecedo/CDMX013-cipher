@@ -4,13 +4,16 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+* [3. Diseño](#3-Diseño)
+* [4. Aplicación del Cifrado Cesar](#4-aplicación-de-cifrado-cesar)
+* [5. Instrucciones](#4-instrucciones)
+* [6. Objetivos de aprendizaje](#6-objetivos-de-aprendizaje)
+* [7. Consideraciones generales](#7-consideraciones-generales)
+* [8. Criterios de aceptación mínimos del proyecto](#8-criterios-de-aceptación-mínimos-del-proyecto)
+* [9. Hacker edition](#9-hacker-edition)
+* [10. Consideraciones técnicas](#10-consideraciones-técnicas)
+* [11. Pistas, tips y lecturas complementarias](#11-pistas-tips-y-lecturas-complementarias)
+* [12. Checklist](#12-checklist)
 
 ***
 
@@ -81,13 +84,8 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 + La pantalla de bienvenida contaba de una imágen diferente a la que quedó en el proyecto terminado, con este cambio se logró una mejor estética  y armonía en la página web. 
 + Se cambió la ubicación de los botones y el texto que dá la bienvenida al usuario.
 + Se utilizó para el letrero de "Bienvenid@ a tu diario personal secreto" el siguiente estilo [Google Font}](https://fonts.googleapis.com/css?family=Trirong&&effect=neon|outline|emboss|shadow-multiple)
-+ Se agregó la siguiente imagen al lado izquierda de cada pantalla:
-
-
-![Imagen para fondo de pantalla](/imagenes/life\ is\ a\ story.webp)
-
-
-+ Se utilizó un fondo de color rgba(3, 186, 167, 0.4).
++ Se agregó una imagen al lado izquierda de cada pantalla.
++ Se utilizó un fondo de color rgba para poder usar una transparencia en el color.
 + Cuando el cursor pasa por encima de los botones se observa una sombra para dar efecto de hacer click y el cursor cambia de forma.
 
 
@@ -149,9 +147,9 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
       +  Si vive a una distancia considerable que impida se vean personalmente.
     
 
-## 5. INSTRUCCIONES
+## 5. INSTRUCCIONES:
 
- #### Pantalla de Bienvenida
+ ### Pantalla de Bienvenida
 
 + Se tienen dos botones:
     + CIFRAR: Haga click en este botón si lo que desea es escribir su diario. Este botón lo llevará a otra pantalla llamada: "Pantalla de Cifrado".
@@ -161,33 +159,40 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 ![Pantalla Bienvenida](/Pantalla-Bienvenida-Final.png)
 
 
- #### Pantalla de Bienvenida
+ ### Pantalla de Cifrado
 
 
++ Pasos a seguir para cifrar su diario:
+    1. Recuadro Superior: Escriba sus maravillosas experiencias diarias.
+    2. Offset: Usted decide el desplazamiento con el que desea cifrar su diario.
+    3. CIFRAR: Haga click en este botón para cifrar el texto escrito en el "recuadro superior" y lo recibirá cifrado en el "Recuadro Inferior".
+    4. Recuadro Inferior: Recibe cifrado su diario.
+    5. MENÚ PRINCIPAL: Haga click en este botón para regresar al menú principal donde puede elegir si quiere volver a cifrar o descifrar su diario.
 
 
 ![Pantalla de Cifrado](/Pantalla-Cifrado-Final.png)
 
-*******************BORRAR DESPUES DE TERMINAR README
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
-  el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-************************
+
+ ### Pantalla de Descifrado
+
++ Pasos a seguir para descifrar su diario:
+    1. Recuadro Superior: Si ya tiene un texto cifrado, escríbalo o copielo aquí.
+    2. Offset: Coloque el desplazamiento que utilizó para cifrar su diario.
+    3. DESCIFRAR: Haga click en este botón para descifrar el texto escrito en el "recuadro superior" y lo recibirá descifrado en el "Recuadro Inferior".
+    4. Recuadro Inferior: Recibe descifrado su diario.
+    5. MENÚ PRINCIPAL: Haga click en este botón para regresar al menú principal donde puede elegir si quiere volver a cifrar o descifrar su diario.
 
 
+![Pantalla de Descifrado](/Pantalla-Descifrado-Final.png)
 
-## 3. Objetivos de aprendizaje
+
+## 6. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
 ### HTML
 
-- [ ] **Uso de HTML semántico**
+- [X] **Uso de HTML semántico**
 
   <details><summary>Links</summary><p>
 
@@ -197,7 +202,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### CSS
 
-- [ ] **Uso de selectores de CSS**
+- [X] **Uso de selectores de CSS**
 
   <details><summary>Links</summary><p>
 
@@ -205,7 +210,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
 </p></details>
 
-- [ ] **Modelo de caja (box model): borde, margen, padding**
+- [X] **Modelo de caja (box model): borde, margen, padding**
 
   <details><summary>Links</summary><p>
 
@@ -218,7 +223,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### Web APIs
 
-- [ ] **Uso de selectores del DOM**
+- [X] **Uso de selectores del DOM**
 
   <details><summary>Links</summary><p>
 
@@ -227,7 +232,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
 </p></details>
 
-- [ ] **Manejo de eventos del DOM (listeners, propagación, delegación)**
+- [X] **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
   <details><summary>Links</summary><p>
 
@@ -251,14 +256,14 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### JavaScript
 
-- [ ] **Tipos de datos primitivos**
+- [X] **Tipos de datos primitivos**
 
   <details><summary>Links</summary><p>
 
   * [Valores primitivos - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Data_structures#valores_primitivos)
 </p></details>
 
-- [ ] **Strings (cadenas de caracteres)**
+- [X] **Strings (cadenas de caracteres)**
 
   <details><summary>Links</summary><p>
 
@@ -266,7 +271,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [String — Cadena de caracteres - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String)
 </p></details>
 
-- [ ] **Variables (declaración, asignación, ámbito)**
+- [X] **Variables (declaración, asignación, ámbito)**
 
   <details><summary>Links</summary><p>
 
@@ -274,7 +279,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
 </p></details>
 
-- [ ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
+- [X] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
 
   <details><summary>Links</summary><p>
 
@@ -282,7 +287,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
 </p></details>
 
-- [ ] **Uso de bucles/ciclos (while, for, for..of)**
+- [X] **Uso de bucles/ciclos (while, for, for..of)**
 
   <details><summary>Links</summary><p>
 
@@ -290,7 +295,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Bucles e iteración - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
 </p></details>
 
-- [ ] **Funciones (params, args, return)**
+- [X] **Funciones (params, args, return)**
 
   <details><summary>Links</summary><p>
 
@@ -307,7 +312,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Empezando con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/getting-started)
 </p></details>
 
-- [ ] **Módulos de ECMAScript (ES Modules)**
+- [X] **Módulos de ECMAScript (ES Modules)**
 
   <details><summary>Links</summary><p>
 
@@ -344,14 +349,14 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Seguir los principios básicos de diseño visual**
 
-## 4. Consideraciones generales
+## 7. Consideraciones generales
 
 * En este proyecto trabajaras de forma individual.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
   te preocupes, lo aprenderás durante este proyecto.
 
-## 5. Criterios de aceptación mínimos del proyecto
+## 8. Criterios de aceptación mínimos del proyecto
 
 Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
@@ -398,7 +403,7 @@ La interfaz debe permitir al usuario:
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
-## 6. Hacker edition
+## 9. Hacker edition
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
@@ -412,7 +417,7 @@ punto de partida para implementar el soporte para estos casos.
 Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del
 hacker edition te invitamos a explorar también esta caso por tu cuenta.
 
-## 7. Consideraciones técnicas
+## 10. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript puro
@@ -463,7 +468,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 ***
 
-## 8. Pistas, tips y lecturas complementarias
+## 11. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -550,33 +555,33 @@ Organización del Trabajo:
   poco a lo largo del -_bootcamp_.
 * [Guía para Cifrado César](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
 
-## 9. Checklist
+## 12. Checklist
 
 Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
 ### Parte Obligatoria
 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+* [X] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [X] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
+* [X] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
+* [X] Usa VanillaJS.
+* [X] Implementa `cipher.encode`.
+* [X] Implementa `cipher.decode`.
 * [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
+* [X] Pasa pruebas unitarias.
 * [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
+* [X] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
   cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
+* [X] Interfaz permite escribir un texto para ser cifrado.
+* [X] Interfaz muestra el resultado del cifrado correctamente.
+* [X] Interfaz permite escribir un texto para ser descifrado.
+* [X] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
 
-* [ ] Cifra/descifra minúsculas
-* [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
+* [X] Cifra/descifra minúsculas
+* [X] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
