@@ -79,8 +79,9 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 ####Pantalla de Bienvenida
 
 + La pantalla de bienvenida contaba de una imágen diferente a la que quedó en el proyecto terminado, con este cambio se logró una mejor estética  y armonía en la página web. 
-+ Se cambió la ubicación de los botones y el texto que dá la bienvenida al usuario.
-+ Se utilizó para el letrero de "Bienvenid@ a tu diario personal secreto" el siguiente estilo [Google Font}](https://fonts.googleapis.com/css?family=Trirong&effect=neon|outline|emboss|shadow-multiple)
++ Se cambió la ubicación de los botones y el texto que d"https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multipleá la bienvenida al usuario.
++ Se utilizó para el letrero de "Bienvenid@ a tu diario personal secreto" el siguiente estilo [Google Font}](https://fonts.googleapis.com/css?family=Trirong&&effect=neon|outline|emboss|shadow-multiple)
++ Se agregó una imagen como fondo de pantalla [Imagen para fondo de pantalla](imagenes/life\ is\ a\ story.webp)
 
 
 
