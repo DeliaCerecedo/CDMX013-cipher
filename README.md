@@ -81,20 +81,35 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 + La pantalla de bienvenida contaba de una imágen diferente a la que quedó en el proyecto terminado, con este cambio se logró una mejor estética  y armonía en la página web. 
 + Se cambió la ubicación de los botones y el texto que dá la bienvenida al usuario.
 + Se utilizó para el letrero de "Bienvenid@ a tu diario personal secreto" el siguiente estilo [Google Font}](https://fonts.googleapis.com/css?family=Trirong&&effect=neon|outline|emboss|shadow-multiple)
-+ Se agregó una imagen como fondo de pantalla ![Imagen para fondo de pantalla](/imagenes/life\ is\ a\ story.webp)
++ Se agregó la siguiente imagen al lado izquierda de cada pantalla:_ ![Imagen para fondo de pantalla](/imagenes/life\ is\ a\ story.webp)
++ Se utilizó un fondo de color rgba(3, 186, 167, 0.4).
++ Cuando el cursor pasa por encima de los botones se observa una sombra para dar efecto de hacer click y el cursor cambia de forma.
 
 
 
 ![Pantalla Bienvenida](Pantalla Bienvenida.png)
+    
 
 ####Pantalla de Cifrado
 
++ Para la pantalla de Cifrado, se decidió mantener el mismo estilo del background que la pantala de bienvenida.
++ En el diseño original de figma no había botón para regresar el menú principal, se agrego ese botón durante el desarrollo de la progrmación de JS.
++ Offset:
+    + Se puso el botón de offset de cifrado y decifrado uno al lado del otro en lugar de ponerlos en columna como estaba en Figma.
+    + Se cambió el tipo de entrada para el offset, en el diseño orginal de Figma se había pensado en que fuera un input, finalmente se dejó un select. Se evitan offset negativos, letras o caracteres especiales.
+    + El número de opciones al inicio del proyecto era de 10 al final del proyecto se cambió a 33 opciones para poder hacer la prueba que se pide para los test.
+
+
 ![Pantalla Cifrado](Pantalla Cifrado.png)
+
 
 ####Pantalla de Descifrado
 
 ![Pantalla Descifrado](Pantalla Descifrado.png)
 
+
++ Para la pantalla de Descifrado, se decidió mantener el mismo estilo que en la pantalla de Cifrado.
++ Al momento de hacer las pruebas finales del proyecto se agregó en JS una intrucción para limpiar las áreas de texto después regresara al menú principal.
 
 
 *******************BORRAR DESPUES DE TERMINAR README
