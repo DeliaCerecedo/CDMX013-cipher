@@ -4,13 +4,16 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+* [3. Diseño](#3-Diseño)
+* [4. Aplicación del Cifrado Cesar](#4-aplicación-de-cifrado-cesar)
+* [5. Instrucciones](#4-instrucciones)
+* [6. Objetivos de aprendizaje](#6-objetivos-de-aprendizaje)
+* [7. Consideraciones generales](#7-consideraciones-generales)
+* [8. Criterios de aceptación mínimos del proyecto](#8-criterios-de-aceptación-mínimos-del-proyecto)
+* [9. Hacker edition](#9-hacker-edition)
+* [10. Consideraciones técnicas](#10-consideraciones-técnicas)
+* [11. Pistas, tips y lecturas complementarias](#11-pistas-tips-y-lecturas-complementarias)
+* [12. Checklist](#12-checklist)
 
 ***
 
@@ -183,7 +186,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 ![Pantalla de Descifrado](/Pantalla-Desifrado-Final.png)
 
 
-## 4. Objetivos de aprendizaje
+## 6. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
@@ -346,14 +349,14 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Seguir los principios básicos de diseño visual**
 
-## 5. Consideraciones generales
+## 7. Consideraciones generales
 
 * En este proyecto trabajaras de forma individual.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
   interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
   te preocupes, lo aprenderás durante este proyecto.
 
-## 6. Criterios de aceptación mínimos del proyecto
+## 8. Criterios de aceptación mínimos del proyecto
 
 Usa este alfabeto simple (solamente mayúsculas y sin ñ):
 
@@ -400,7 +403,7 @@ La interfaz debe permitir al usuario:
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
-## 7. Hacker edition
+## 9. Hacker edition
 
 Las secciones llamadas _Hacker Edition_ son **opcionales**. Si **terminaste**
 con todo lo anterior y te queda tiempo, intenta completarlas. Así podrás
@@ -414,7 +417,7 @@ punto de partida para implementar el soporte para estos casos.
 Tampoco se menciona qué pasaría si el offset fuera negativo. Como parte del
 hacker edition te invitamos a explorar también esta caso por tu cuenta.
 
-## 8. Consideraciones técnicas
+## 11. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript puro
@@ -465,7 +468,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 ***
 
-## 9. Pistas, tips y lecturas complementarias
+## 12. Pistas, tips y lecturas complementarias
 
 ### Primeros pasos
 
@@ -552,7 +555,7 @@ Organización del Trabajo:
   poco a lo largo del -_bootcamp_.
 * [Guía para Cifrado César](https://docs.google.com/presentation/d/e/2PACX-1vTQ7-8LZDHrT4Y6AOBN72Nkfz1eJAeseBHpcHX8BSq0aFCFoZmuMjluMeyFNgK9ISKxTz0H03yGfJiT/pub?start=false&loop=false&delayms=60000)
 
-## 10. Checklist
+## 11. Checklist
 
 Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
