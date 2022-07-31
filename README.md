@@ -76,8 +76,8 @@ como tecnologías.
     
 ####Pantalla Bienvenida
 
+![img](Pantalla Bienvenida.png)
 
-![](Pantalla Bienvenida.png)
 
 
 
