@@ -62,6 +62,20 @@ Trabajando en parejas aprenderán a construir una aplicación web que interactua
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
 como tecnologías.
 
+
+
+* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+  el producto.
+* [ ] `README.md` explica claramente cómo el producto soluciona los
+  problemas/necesidades de los usuarios.
+
+
+
+
+
+
+
 ## 3. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
