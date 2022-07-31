@@ -84,7 +84,7 @@ A continuación estse anexan las imágenes de Figma para cada pantalla.
 + Se agregó la siguiente imagen al lado izquierda de cada pantalla:
 
 
-![Imagen para fondo de pantalla](/imagenes/life\ is\ a\ story.webp)
+![Imagen para fondo de pantalla](src="/imagenes/life\ is\ a\ story.webp")
 
 
 + Se utilizó un fondo de color rgba para poder usar una transparencia en el color.
