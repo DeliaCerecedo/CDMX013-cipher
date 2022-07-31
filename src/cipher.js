@@ -4,6 +4,7 @@ const cipher = {
         if (offsetCifrar <= 0 && typeof originalText != "string") {
           throw new TypeError();
         }
+        
         let textEncode = '';
                    
        
