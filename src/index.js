@@ -29,6 +29,7 @@ menuPrincipalCifrado.addEventListener('click', function(){
     document.getElementById('pantallaCifrar').style.display = "none";
     document.getElementById('textParaCifrar').value = " ";
     document.getElementById('diarioCifrado').value = " ";
+    
 });
 
 
@@ -59,6 +60,7 @@ menuPrincipalDescifrado.addEventListener('click', function(){
     document.getElementById('pantallaDescifrar').style.display = "none";
     document.getElementById('textParaDescifrar').value = " ";
     document.getElementById('diarioDescifrado').value = " ";
+    
 });
 
 
