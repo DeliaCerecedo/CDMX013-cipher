@@ -13,11 +13,11 @@ const cipher = {
           const numberByCharacter = originalText.charCodeAt(i);
           
           if (numberByCharacter >= 65 && numberByCharacter <=90) {
-            const textWithNumberEncode = (numberByCharacter - 65 + Number(offsetCifrar)) % 26 + 65;
+            const textWithNumberEncode = ((numberByCharacter - 65 + parseInt(offsetCifrar)) % 26 ) + 65;
             const textWithLetterEncode = String.fromCharCode(textWithNumberEncode);
             textEncode += textWithLetterEncode;
           } else if (numberByCharacter >= 97 && numberByCharacter <=122) {
-            const textWithNumberEncode = (numberByCharacter - 97 + Number(offsetCifrar)) % 26 + 97;
+            const textWithNumberEncode = ((numberByCharacter - 97 + parseInt(offsetCifrar)) % 26) + 97;
             const textWithLetterEncode = String.fromCharCode(textWithNumberEncode);
             textEncode += textWithLetterEncode;
 
@@ -48,11 +48,11 @@ const cipher = {
           const numberByDecode = textoCifrado.charCodeAt(i);
           
           if (numberByDecode >= 65 && numberByDecode <=90) {
-            const textWithNumberDecode = (numberByDecode + 65 - Number(offsetDescifrar)) % 26 + 65;
+            const textWithNumberDecode = ((numberByDecode + 65 - parseInt(offsetDescifrar)) % 26) + 65;
             const textWithLetterDecode = String.fromCharCode(textWithNumberDecode);
             textDecode += textWithLetterDecode;
           } else if (numberByDecode >= 97 && numberByDecode <=122) {
-            const textWithNumberDecode = (numberByDecode + 97 + Number(offsetDescifrar)) % 26 + 97;
+            const textWithNumberDecode = ((numberByDecode - 97 - parseInt(offsetDescifrar) + 52) % 26) + 97;
             const textWithLetterDecode = String.fromCharCode(textWithNumberDecode);
             textDecode += textWithLetterDecode;
 
