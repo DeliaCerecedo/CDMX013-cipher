@@ -2,9 +2,10 @@
   margin: 0%;
   padding: 0%;
 }
-html{
+body{
   width: 100%;
-  height: 100%;  
+  height: 100%;
+ font-size: 62.5%;   
 }
 body {
   background-image: url("imagenes/life\ is\ a\ story.webp");
@@ -23,13 +24,14 @@ body {
 }
 h1{
     font-family: "Trirong", serif;
-    font-size: 60px;
+    font-size: 3.9rem;
     position: absolute;
     margin-top: 8%;
     margin-left: 52%;
+    margin-right: 1%;
 }
 p.cifrar {
-    font-size: 43px;
+    font-size: 2.8rem;
     font-family: 'Indie Flower', cursive;
     position: absolute;
     margin-top: 15%;
@@ -57,7 +59,7 @@ p.cifrar {
 }
 
 p.descifrar{
-    font-size: 43px;
+    font-size: 2.8rem;
     font-family: 'Indie Flower', cursive;
     position: absolute;
     margin-top: 28%;
@@ -84,7 +86,7 @@ p.descifrar{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
   }  
 p.cifrar-descifrar{
-    font-size: 43px;
+    font-size: 2.8rem;
     font-family: 'Indie Flower', cursive;
     position: absolute;
     margin-top: 2%;
@@ -159,7 +161,7 @@ p.offset{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
 p.diarioCifrado{
-    font-size: 43px;
+    font-size: 2.8rem;
     font-family: 'Indie Flower', cursive;
     position: absolute;
     margin-top: 25%;
